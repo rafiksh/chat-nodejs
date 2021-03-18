@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "&config/*": [
+        "./src/config/*"
+      ],
+      "&db/*": [
+        "./src/db/*"
+      ],
+      "&routes/*": [
+        "./src/routes/*"
+      ],
+      "&routers/*": [
+        "./src/routers/*"
+      ],
+      "&utils/*": [
+        "./src/utils/*"
+      ],
+      "&validation/*": [
+        "./src/validation/*"
+      ]
+    }
+  }
+}
