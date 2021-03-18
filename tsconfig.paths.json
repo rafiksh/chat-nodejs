@@ -19,6 +19,9 @@
       ],
       "&validation/*": [
         "./src/validation/*"
+      ],
+      "&test/*": [
+        "./src/test/*"
       ]
     }
   }
