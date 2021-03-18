@@ -1,11 +1,10 @@
-import { Router, Request, Response } from "express";
+import { Router } from "express";
+import { partial } from "lodash";
 
-export const userRouter = (router: Router) => {
-  router.get("/", (req: Request, res: Response) => {
-    res.statusCode = 200;
-    res.send("user");
-    res.end();
-  });
+import { getUser } from "../user/controller/get";
+
+export const userRouter = (router: Router, db: any) => {
+  router.get("/", partial(getUser, db));
 
   return router;
 };
