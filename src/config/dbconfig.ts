@@ -1,0 +1,9 @@
+import {
+  MONGODB_HOST,
+  MONGODB_PORT,
+  MONGODB_DATABASE,
+  MONGODB_USER,
+  MONGODB_PWD,
+} from "./config.env";
+
+export const MONGODB_URL = `mongodb://${MONGODB_USER}:${MONGODB_PWD}@${MONGODB_HOST}:${MONGODB_PORT}/${MONGODB_DATABASE}`;

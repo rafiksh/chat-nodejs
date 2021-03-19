@@ -1,0 +1,27 @@
+# Client test
+client
+
+# Build directory
+dist
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+.vscode
+
+## Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Mongo file by mongo-mock
+mongo.js
+
+# Environment Variables
+.env
